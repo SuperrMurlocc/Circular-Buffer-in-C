@@ -1,5 +1,5 @@
-#ifndef PROJECT1_CIRCULAR_BUFFER_H
-#define PROJECT1_CIRCULAR_BUFFER_H
+#ifndef CIRCULAR_BUFFER_H
+#define CIRCULAR_BUFFER_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -27,5 +27,4 @@ int circular_buffer_full(const struct circular_buffer_t *a);
 
 void circular_buffer_display(const struct circular_buffer_t *a);
 
-#endif //PROJECT1_CIRCULAR_BUFFER_H
-
+#endif CIRCULAR_BUFFER_H
